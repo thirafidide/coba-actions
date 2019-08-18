@@ -1,11 +1,11 @@
 {
-  "name": "node12-template-action",
+  "name": "coba-actions",
   "version": "0.0.0",
   "private": true,
   "description": "Node 12 template action",
   "main": "lib/main.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsdx build --target node --entry src/main.ts --format cjs",
     "test": "jest"
   },
   "repository": {
